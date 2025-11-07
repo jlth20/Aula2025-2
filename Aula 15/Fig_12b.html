@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.menu-horizontal {
+  display: flex;                 /* coloca os links lado a lado */
+  border: 1px solid black;       /* borda externa do menu */
+  background-color: #f0f0f0;     /* cor de fundo */
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo dos links */
+.menu-horizontal a {
+  flex: 1;                       /* todos os links com a mesma largura */
+  text-align: center;            /* centraliza o texto */
+  padding: 10px;
+  text-decoration: none;         /* remove o sublinhado */
+  color: blue;
+  border-right: 1px solid black; /* borda separando os itens */
+}
+
+/* Remove a borda do último item */
+.menu-horizontal a:last-child {
+  border-right: none;
+}
+
+/* Efeito hover */
+.menu-horizontal a:hover {
+  background-color: #ccc;
+}
+</style>
+</head>
+<body>
+<nav class="menu-horizontal">
+  <a href="#">Início</a>
+  <a href="#">Serviços</a>
+  <a href="#">Portfólio</a>
+  <a href="#">Contato</a>
+</nav>  
+</body>
+</html>

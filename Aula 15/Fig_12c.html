@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+/* Remove marcadores e espaçamentos padrão */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;         /* largura do menu */
+  border: 1px solid #000;
+  background-color: #eee;
+}
+
+/* Estiliza os itens */
+.menu li {
+  border-bottom: 1px solid #000;
+}
+
+/* Remove a borda do último item */
+.menu li:last-child {
+  border-bottom: none;
+}
+
+/* Estilo dos links */
+.menu a {
+  display: block;        /* faz o link ocupar toda a largura */
+  padding: 12px;
+  text-decoration: none; /* remove sublinhado */
+  color: #000;
+}
+
+/* Hover: efeito ao passar o mouse */
+.menu a:hover {
+  background-color: #ccc;
+  color: blue;
+  font-weight: bold;
+}
+
+</style>
+</head>
+<body>
+<ul class="menu">
+  <li><a href="#">Início</a></li>
+  <li><a href="#">Notícias</a></li>
+  <li><a href="#">Serviços</a></li>
+  <li><a href="#">Contato</a></li>
+</ul>
+</body>
+</html>

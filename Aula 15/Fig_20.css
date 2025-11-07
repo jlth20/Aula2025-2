@@ -1,0 +1,30 @@
+/* exerciico 02 e 03 */
+ul{
+  list-style-type: none;  
+  /* retirando o simbolo do marcador*/
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  background-color: aquamarine;
+  border: 2px solid black;
+ 
+}
+/* formatando o link da lista */
+li a{
+display: block;
+color: black;
+/* colocando uma distancia entre os links */
+padding: 8px 16px;
+text-decoration: none;
+}
+li{
+text-align: center;
+border-bottom: 1px solid #555;
+}
+li:last-child{
+    border-bottom: none;
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+    }

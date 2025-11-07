@@ -1,0 +1,15 @@
+ul{
+  list-style-type: none;  
+  /* retirando o simbolo do marcador*/
+  margin: 0;
+  padding: 0;
+}
+/* formatando o link da lista */
+li a{
+display: block;
+width: 60px;
+/* cor de fundo */
+background-color: #dddddd;
+/* colocando uma distancia entre os links */
+padding: 5px;
+}

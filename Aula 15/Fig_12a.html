@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.menu {
+  width: 200px;                
+  /* largura do menu */
+  border: 1px solid black;     
+  /* borda externa do menu */
+  background-color: #f0f0f0;   
+  /* cor de fundo */
+  text-align: center;         
+   /* centraliza o texto */
+  font-family: Arial, sans-serif;
+}
+/* Cada link é um bloco com borda */
+.menu a {
+  display: block;              
+  /* cada link ocupa uma linha */
+  padding: 10px;               
+  /* espaçamento interno */
+  border-bottom: 1px solid black; 
+  /* borda entre os links */
+  text-decoration: none;      
+   /* remove o sublinhado */
+  color: blue;
+}
+/* Remove a borda do último link */
+.menu a:last-child {
+  border-bottom: none;
+}
+/* Efeito ao passar o mouse */
+.menu a:hover {
+  background-color: #ccc;
+}
+
+</style>
+</head>
+<body>
+<div class="menu">
+  <a href="#">Home</a>
+  <a href="#">Serviços</a>
+  <a href="#">Portfólio</a>
+  <a href="#">Contato</a>
+</div>    
+</body>
+</html>

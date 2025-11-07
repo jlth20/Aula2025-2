@@ -1,0 +1,22 @@
+/* exercicio 01 */
+ul{
+  list-style-type: none;  
+  /* retirando o simbolo do marcador*/
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  background-color: aquamarine;
+  
+}
+/* formatando o link da lista */
+li a{
+display: block;
+width: 160px;
+/* colocando uma distancia entre os links */
+padding: 5px;
+
+}
+li a:hover{
+    background-color: #555;
+    color: white;
+    }
